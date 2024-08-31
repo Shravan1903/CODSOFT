@@ -25,6 +25,7 @@ void drawBoard(const vector<vector<char>>& board) {
     int cellNumber = 1;
     for (int i = 0; i < 3; i++) {
         cout << "| ";
+        
         for (int j = 0; j < 3; j++) {
             if (board[i][j] == ' ') {
                 cout << cellNumber;

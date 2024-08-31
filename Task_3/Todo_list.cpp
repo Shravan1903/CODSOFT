@@ -131,7 +131,8 @@ int main() {
         break;
 
       case 3:
-        cout << "Choose the task to delete: "<<endl;
+        cout << "Choose the task to delete: "<<endl
+        ;
         int deleteIndex;
         for (int i = 0; i < tasks.size(); i++) {
           cout << i + 1 << ". " << tasks[i] << endl;
